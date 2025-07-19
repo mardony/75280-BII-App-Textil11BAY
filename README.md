@@ -1,5 +1,4 @@
 # __APP TEXTIL ONCEBAY - 11BAY__
---
 ***
 ## ✨ __Bienvenido al Repositorio de Oncebay__ ✨
 ¡Hola! 👋 Te damos la bienvenida a nuestro espacio digital en GitHub. Aquí encontrarás el corazón tecnológico que impulsa la magia de Oncebay, una empresa dedicada a preservar y compartir la belleza de los textiles tradicionales, ¡todos elaborados con el amor y la dedicación de las manos artesanas!
@@ -42,10 +41,10 @@ TEXTIL-11BAY
 
 
 
-# 🚀 ¿Qué Encontrarás Aquí?
-+ Este repositorio alberga el código fuente de nuestra plataforma de e-commerce, la cual nos permite conectar nuestros hermosos productos hechos a mano con personas como tú, que valoran la autenticidad y el arte.
+## 🚀 ¿Qué Encontrarás Aquí?
+Este repositorio alberga el código fuente de nuestra plataforma de e-commerce, la cual nos permite conectar nuestros hermosos productos hechos a mano con personas como tú, que valoran la autenticidad y el arte.
 
-+ Hemos construido este proyecto con tecnologías robustas y modernas para asegurar una experiencia de usuario fluida y segura:
+Hemos construido este proyecto con tecnologías robustas y modernas para asegurar una experiencia de usuario fluida y segura:
 
 + Backend con Node.js y Express: El motor de nuestra tienda, gestionando toda la lógica de negocio y las operaciones de nuestra API.
 
@@ -58,6 +57,11 @@ TEXTIL-11BAY
 + Sistema de Autenticación y Autorización (JWT & Passport): Garantizando que tus datos estén seguros y que solo tú tengas acceso a tu información.
 
 + CRUD de Productos y Usuarios: Una gestión completa para mantener nuestro catálogo y la comunidad Oncebay siempre al día.
+
+## tecnologias:
+- ![Static Badge](https://img.shields.io/badge/JSON-Notaci%C3%B3n%20de%20Objetos%20JavaScript-blue?style=for-the-badge&logo=JSON&logoColor=red&logoSize=auto)
+
+- ![Static Badge](https://img.shields.io/badge/JAVASCRIPT-para%20webs%2C%20aplicaciones%20m%C3%B3viles%20y%20del%20lado%20del%20servidor-blue?style=for-the-badge&logo=JAVASCRIPT&logoColor=YELOW&logoSize=auto)
 
 
 ## 🔐 Autenticación y Autorización
