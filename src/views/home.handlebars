@@ -1,0 +1,28 @@
+<h1>Lista de Productos</h1>
+<ul id="products-list">
+    {{#each products}}
+    <li>
+        <h3>{{this.title}}</h3>
+        <p>Descripción: {{this.description}}</p>
+        <p>Código: {{this.code}}</p>
+        <p>Precio: ${{this.price}}</p>
+        <p>Stock: {{this.stock}}</p>
+        <p>Categoría: {{this.category}}</p>
+        <p>Estado: {{#if this.status}}Activo {{else}}Inactivo{{/if}}</p>
+        {{#if this.thumbnails.length}}
+        <img src="{{this.thumbnails.[0]}}" alt="{{this.title}}" style="width: 100px;">
+        {{/if}}
+    </li>
+    {{else}}
+    <p>No hay productos disponibles.</p>
+    {{/each}}
+</ul>
+<div class="pagination">
+    {{#if hasPrevPage}}
+    <a href="{{prevLink}}">Página Anterior</a>
+    {{/if}}
+    <span>Página {{page}} de {{totalPages}}</span>
+    {{#if hasNextPage}}
+    <a href="{{nextLink}}">Página Siguiente</a>
+    {{/if}}
+</div>

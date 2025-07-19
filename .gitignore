@@ -1,0 +1,57 @@
+<<<<<<< HEAD
+# Directorios de dependencias
+node_modules/
+
+# Archivos de entorno
+.env
+
+# Archivos de log
+*.log
+logs/
+
+# Archivos de sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Archivos de caché o temporales
+*.tmp
+*.bak
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+.yarn/
+=======
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Optional build outputs
+dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Optional test coverage
+coverage/
+
+# System files
+*.swp
+*.swo
+*.tmp
+>>>>>>> a9c20eede50757a7fc85cc2f11331277b2e7ad32

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11BAY App Textil</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenido a 11BAY</h1>
+        <nav>
+            <a href="/">Home (Productos)</a> |
+            <a href="/realtimeproducts">Productos en Tiempo Real</a> |
+            <a href="/api/sessions/login">Login</a> |
+            <a href="/api/sessions/current">Current User (with JWT)</a>
+        </nav>
+    </header>
+    <main>
+        {{{body}}}
+    </main>
+    <footer>
+        <p>&copy; 2025 11BAY App Textil. Todos los derechos reservados.</p>
+    </footer>
+    <script src="/socket.io/socket.io.js"></script>
+</body>
+</html>
